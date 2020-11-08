@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>J Bosco Nseng</title>
+</head>  
+
+<body class="bground">
+      <header>
+        <a href="#" class="logo" style="opacity: 50%;">J Bosco NSENG</a>
+        <div class="toggle" onclick="toggleMenu()">Menu</div>
+        <ul class="menu">
+          <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="index.html#about" onclick="toggleMenu()">About Me</a></li>
+            <li><a href="index.html#skills" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="index.html#work" onclick="toggleMenu()">My Work</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+    </header>
+ <section class="work" id="work" style="background-color: #111;">
+    <div class="heading" style="color: #c9c3c3">
+        <h2>Our Latest Work</h2>
+        <p>Make a step and work with us, don't worry you won't regret.</p>
+    </div>
+    <div class="content" align="center">
+        <div class="workBx">
+            <img style="width: 300px; height: 250px;" src="BCard2.jpg" >
+
+        </div>
+        <div class="workBx">
+            <img style="width: 300px; height: 250px;" src="Idtemplate.jpg" >
+        </div>
+        <div class="workBx">
+            <img style="width: 300px; height: 250px;" src="Brochure.jpg" >
+        </div>
+        <div class="workBx">
+            <img style="width: 300px; height: 250px;" src="Final.jpg" >
+        </div>
+          <div class="workBx">
+            <img style="width: 300px; height: 250px;" src="Cardtamplete.jpg" >
+        </div>
+        <div class="workBx">
+            <img style="width: 300px; height: 250px;" src="Official_Logo.jpg" >
+        </div>
+        <div class="workBx">
+            <img style="width: 300px; height: 250px;" src="Recovered.jpg" >
+        </div>
+        <div class="workBx">
+            <img style="width: 300px; height: 250px;" src="DSC_11281.jpg" >
+        </div>
+          <div class="workBx">
+            <img style="width: 300px; height: 250px;" src="BoBo.jpg" >
+        </div>
+        <div class="workBx">
+            <img style="width: 300px; height: 250px;" src="face.jpg" >
+        </div>
+        <div class="workBx">
+            <img style="width: 300px; height: 250px;" src="Kitoko.jpg" >
+        </div>
+        <div class="workBx">
+            <img style="width: 300px; height: 250px;" src="Yazid.jpg" >
+        </div>
+          <div class="workBx">
+            <img style="width: 300px; height: 250px;" src="BCard2.jpg" >
+        </div>
+        <div class="workBx">
+            <img style="width: 300px; height: 250px;" src="nelly.jpg" >
+        </div>
+        <div class="workBx">
+            <img style="width: 300px; height: 250px;" src="AgriTrials-Recovered.jpg" >
+        </div>
+        <div class="workBx">
+            <img style="width: 300px; height: 250px;" src="Bronchire.jpg" >
+        </div>
+                <div class="workBx">
+            <img style="width: 300px; height: 250px;" src="cover_black.jpg" >
+        </div>
+        <div class="workBx">
+            <img style="width: 300px; height: 250px;" src="Billboard.jpg" >
+        </div>
+    </div>
+  <div class="heading">
+        <a href="index.html#work" class="btn" target="">See less..</a>
+    </div>
+   </section>
+   
+   <section class="contacts" id="contact">
+    <div class="heading white">
+        <h2>Contact Me</h2>
+        <p>Contact us for more information were here for you.</p>
+    </div>
+    <div class="content">
+        <div class="contactInfo">
+            <p style="color: #fff;"><strong>Contact Info</strong></p>
+            <div class="contactInfoBx">
+              <div class="box">
+                    
+                <div class="icon">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                </div>
+                <div class="text">
+                    <h3>Address</h3>
+                    <p>MU 155 Road,<br>Musanze,Rwanda<br>P.O 155</p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="icon">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                </div>
+                <div class="text">
+                    <h3>Phone</h3>
+                    <p><a style="color: #fff;" href="tel:+250788468427" target="_blank"> +250788468427</a></p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="icon">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                </div>
+                <div class="text">
+                    <h3>Email</h3>
+                    <p><a style="color: #fff;" href="mailto:jbosconseng98@gmail.com" target="_blank"> jbosconseng98@gmail.com</a></p>
+                </div>
+
+              </div>
+            </div>
+        </div>
+        <div class="formBx">
+            <form>
+                <h3>Message Me</h3>
+                <input type="text" name="" placeholder="Full Name">
+                <input type="email" name="" placeholder="Email">
+                <textarea placeholder="Your message"></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+   </section><div class="copyright">
+       <p>Copyright &copy; 2020 J Bosco NSENG. All Reserved</p>
+   </div>
+   <script type="text/javascript">
+   window.addEventListener('scroll', function(){
+       var header = document.querySelector('header');
+       header.classList.toggle('sticky', window.scrollY > 0);
+   })
+   function toggleMenu(){
+   var menuToggle = document.querySelector('.toggle');
+   var menu = document.querySelector('.menu');
+   menuToggle.classList.toggle('active');
+   menu.classList.toggle('active');
+   }
+</script>
+</body>
+</html>
